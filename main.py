@@ -1,10 +1,11 @@
+#!/usr/bin/env python
 from pprint import pprint
 import requests
 import json
 import sys
 
 def usage():
-   print("Argument needed") 
+   print("Argument needed")
    print("script image_name")
 
 if len(sys.argv) <= 1:

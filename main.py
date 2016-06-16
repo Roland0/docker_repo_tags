@@ -33,4 +33,5 @@ def make_request(image_name):
         print("Size: {0}".format(int(item['full_size'])))
         print(' ')
 
-make_request(image_name)
+for image_name in sys.argv[1:]:
+    make_request(image_name)
